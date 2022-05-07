@@ -432,10 +432,10 @@ function Library:create(options)
 	end
 
 	options = self:set_defaults({
-		Name = "Mercury",
+		Name = "Kadium Hub",
 		Size = UDim2.fromOffset(600, 400),
 		Theme = self.Themes[settings.Theme],
-		Link = "https://github.com/deeeity/mercury-lib"
+		Link = "https://kadium/script/main"
 	}, options)
 
 	if getgenv and getgenv().MercuryUI then
