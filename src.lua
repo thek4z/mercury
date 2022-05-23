@@ -435,7 +435,7 @@ function Library:create(options)
 		Name = "Kadium Hub",
 		Size = UDim2.fromOffset(600, 400),
 		Theme = self.Themes[settings.Theme],
-		Link = "https://kadium/script/main"
+		Link = "https://kadiumhub/script/"
 	}, options)
 
 	if getgenv and getgenv().MercuryUI then
